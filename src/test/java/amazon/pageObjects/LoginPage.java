@@ -1,4 +1,4 @@
-package amazon;
+package amazon.pageObjects;
 
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.Keys;

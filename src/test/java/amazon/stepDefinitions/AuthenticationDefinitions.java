@@ -1,12 +1,11 @@
 package amazon.stepDefinitions;
 
-import amazon.AmazonHomePage;
-import amazon.LoginPage;
+import amazon.pageObjects.AmazonHomePage;
+import amazon.pageObjects.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.serenitybdd.screenplay.ensure.Ensure;
 import org.junit.Assert;
 
 public class AuthenticationDefinitions {

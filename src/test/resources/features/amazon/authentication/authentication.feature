@@ -1,5 +1,5 @@
 Feature: Authentication
-
+# For this scenario you need to substitute  your own valid credentials( email, pwd, username)
   Scenario: Successful login with valid credentials
     Given I am on Amazon Homepage
     And I choose to login
