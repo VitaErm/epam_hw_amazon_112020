@@ -1,4 +1,4 @@
-package amazon;
+package amazon.pageObjects;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
@@ -11,9 +11,10 @@ public class AmazonHomePage extends PageObject {
     }
 
     public String getWelcomeText() {
-        String userName=$("a[data-nav-role=\"signin\"] span.nav-line-1").getText();
-        return userName;
+        String text=$("a[data-nav-role=\"signin\"] span.nav-line-1").getText();
+        return text;
     }
+
 }
 
 
